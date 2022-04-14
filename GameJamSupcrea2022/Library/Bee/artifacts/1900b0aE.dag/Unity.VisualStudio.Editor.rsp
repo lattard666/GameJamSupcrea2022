@@ -121,6 +121,7 @@
 -define:PLAYMAKER_1_9_OR_NEWER
 -define:PLAYMAKER_TMPRO
 -define:PLAYMAKER_URP
+-define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
