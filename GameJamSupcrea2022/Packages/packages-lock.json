@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.digitom.playmakerinputsystemactions": {
+      "version": "https://gitlab.com/toomasio/playmakerinputsystemactions.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.inputsystem": "1.0.1"
+      },
+      "hash": "2f0adb897d8f695f970a55d527477e68c861e8b6"
+    },
     "com.unity.burst": {
       "version": "1.6.0",
       "depth": 1,
