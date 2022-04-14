@@ -334,7 +334,6 @@
 -r:"E:/Thief Gang/GameJamSupcrea2022/GameJamSupcrea2022/GameJamSupcrea2022/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"E:/Thief Gang/GameJamSupcrea2022/GameJamSupcrea2022/GameJamSupcrea2022/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"E:/Thief Gang/GameJamSupcrea2022/GameJamSupcrea2022/GameJamSupcrea2022/Library/PackageCache/com.unity.visualscripting@1.7.7/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
@@ -377,7 +376,6 @@
 "Assets/PlayMaker/Editor/PlayMakerEditorStartup.cs"
 "Assets/PlayMaker/Editor/PlayMakerWelcomeWindow.cs"
 "Assets/PlayMaker/Editor/PreUpdateChecker.cs"
-"Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 
 /deterministic
