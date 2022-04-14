@@ -22,10 +22,11 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: smoke gaz
   m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
-  m_ShaderKeywords: _SURFACE_TYPE_TRANSPARENT
+  m_ShaderKeywords: _ALPHAMODULATE_ON _ALPHAPREMULTIPLY_ON _COLORCOLOR_ON _FADING_ON
+    _SOFTPARTICLES_ON _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
@@ -50,13 +51,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Blend: 0
+    - _Blend: 1
     - _BlendOp: 0
     - _CameraFadingEnabled: 0
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
-    - _Cull: 0
+    - _ColorMode: 4
+    - _Cull: 2
     - _Cutoff: 0
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
@@ -67,17 +68,17 @@ Material:
     - _FlipbookMode: 0
     - _Mode: 0
     - _QueueOffset: 0
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesEnabled: 1
+    - _SoftParticlesFarFadeDistance: 1.5
     - _SoftParticlesNearFadeDistance: 0
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _Surface: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.9669811, g: 1, b: 0.96793187, a: 1}
-    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0.9669811, g: 1, b: 0.9679318, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.06315759, g: 0.37382463, b: 0, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0.6666667, b: 0, a: 0}
   m_BuildTextureStacks: []
