@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1041971538951684409}
   - component: {fileID: 2040715721230937439}
   - component: {fileID: 8145146051191874847}
+  - component: {fileID: 4774194273522665026}
   m_Layer: 0
   m_Name: Vitre plateau
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4774194273522665026
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3113378894941338683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8362148037696316298, guid: 78b006509ef9ff34eb033c096a22fa02, type: 3}

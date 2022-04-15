@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9163049944161322218}
   - component: {fileID: 5225982018426833743}
   - component: {fileID: 8026150920884191109}
+  - component: {fileID: 1969751177227054366}
   m_Layer: 0
   m_Name: Mirror dali
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1969751177227054366
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386372988380274256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3292925553009838691, guid: 466fd28b7fe4cc44db1d21091459e654, type: 3}

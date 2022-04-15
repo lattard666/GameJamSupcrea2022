@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2138133462904467080}
   - component: {fileID: 3027534520720351533}
   - component: {fileID: 1001771447037990375}
+  - component: {fileID: -29681886068163756}
   m_Layer: 0
   m_Name: tableau b
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-29681886068163756
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650566664849962034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5060444177187149915, guid: b31e168d91463aa448f69e6c1623ca5d, type: 3}

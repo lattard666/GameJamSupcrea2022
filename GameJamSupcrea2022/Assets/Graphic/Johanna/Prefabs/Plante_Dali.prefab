@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4031572028457130749}
   - component: {fileID: 2700287992653895977}
   - component: {fileID: 3072262631527646210}
+  - component: {fileID: -7557715950563746793}
   m_Layer: 0
   m_Name: Plante_Dali
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-7557715950563746793
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202353975070442449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3080044450184258637, guid: 29f7f0fd3e5d8004cb89eac106d978f4, type: 3}

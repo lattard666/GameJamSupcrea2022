@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3260248547409412974}
   - component: {fileID: 6341604295585024253}
   - component: {fileID: 4165065154208233133}
+  - component: {fileID: 7443700395220692380}
   m_Layer: 0
   m_Name: Sofa_Dali
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7443700395220692380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470964264763975618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8371114475017461675, guid: 29f7f0fd3e5d8004cb89eac106d978f4, type: 3}
