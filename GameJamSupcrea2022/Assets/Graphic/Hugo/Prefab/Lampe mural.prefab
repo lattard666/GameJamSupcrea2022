@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &189721225162335673
+--- !u!1 &4349996605751491180
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 714338266540113667}
-  - component: {fileID: 4487288695108956326}
-  - component: {fileID: 1847313687137256556}
+  - component: {fileID: 3969248456740479190}
+  - component: {fileID: 52426794372411251}
+  - component: {fileID: 2836905672343772089}
   m_Layer: 0
-  m_Name: Lampe
+  m_Name: Lampe mural
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &714338266540113667
+--- !u!4 &3969248456740479190
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189721225162335673}
-  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.271, y: -0.324, z: -2.3829737}
+  m_GameObject: {fileID: 4349996605751491180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.2199752, y: 0.25908756, z: -2.3829737}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4487288695108956326
+--- !u!33 &52426794372411251
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189721225162335673}
-  m_Mesh: {fileID: 2526262806704550988, guid: 1df0f906bff854142abc550753973b20, type: 3}
---- !u!23 &1847313687137256556
+  m_GameObject: {fileID: 4349996605751491180}
+  m_Mesh: {fileID: -6579141702564002086, guid: dd69a5f55a101454cb7c927f5c3a7206, type: 3}
+--- !u!23 &2836905672343772089
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189721225162335673}
+  m_GameObject: {fileID: 4349996605751491180}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
